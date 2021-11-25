@@ -1,6 +1,8 @@
 import unittest
 import string
 from game import Game
+from wsgi import app
+
 
 class TestGame(unittest.TestCase):
     def test_game_initialization(self):
